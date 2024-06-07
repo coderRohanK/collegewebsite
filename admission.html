@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Admission</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .buttons {
+            padding: 10px 20px;
+            border-radius: 20px;
+            background-color: whitesmoke;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 1s, color 1s;
+        }
+        .buttons:hover{
+            background-color: rgb(0, 179, 255);
+            color: white;
+        }
+
+        input[type="text"] {
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 16px;
+            background-color: whitesmoke;
+            width: 50%;
+        }
+
+        h1 {
+            color: rgb(0, 132, 255);
+            font-size: 24px;
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #d1d0d0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        b {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .form-group input[type="text"] {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>VIDYAVARDHAKA COLLEGE OF ENGINEERING</h1>
+    <h1>ADMISSION FORM:</h1>
+    <form action="#">
+        <div class="form-group">
+            <label for="name"><b>Name :</b></label>
+            <input type="text" id="name">
+        </div>
+        <div class="form-group">
+            <label for="dob"><b>Date of Birth :</b></label>
+            <input type="text" id="dob">
+        </div>
+        <div class="form-group">
+            <label for="blood-group"><b>Blood Group :</b></label>
+            <input type="text" id="blood-group">
+        </div>
+        <div class="form-group">
+            <label for="fathers-name"><b>Fathers Name :</b></label>
+            <input type="text" id="fathers-name">
+        </div>
+        <div class="form-group">
+            <label for="mothers-name"><b>Mothers Name :</b></label>
+            <input type="text" id="mothers-name">
+        </div>
+        <div class="form-group">
+            <label for="address"><b>Address :</b></label>
+            <input type="text" id="address">
+        </div>
+        <div class="form-group">
+            <label for="phone-number"><b>Phone Number :</b></label>
+            <input type="text" id="phone-number">
+        </div>
+        <input class="buttons" type="submit" value="submit">
+        <input class="buttons" type="reset"  value="reset">
+    </form>
+</body>
+</html>
